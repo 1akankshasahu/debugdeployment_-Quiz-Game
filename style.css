@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px solid black;
+    
+ 
+
+}
+.box{
+    width:400px;
+    padding: 15px;
+    box-shadow: 0px opx 5px rgb(214, 192, 192);
+    background-color:beige;
+    border-radius: 10px  ;
+    
+}
+.row{
+    width:100%;
+    margin: 32px;
+    margin-left: 0px;
+
+
+}
+.btn{
+    
+    padding:1rem 3rem;
+    font-size:2rem;
+    font-weight: 400;
+    margin: auto;
+    display:block;
+    color:white;
+    border:none;
+    border-radius:4px;
+    margin-top: 4rem;
+    background-color: rgb(173, 31, 31);
+    cursor:pointer;
+}
+
+
